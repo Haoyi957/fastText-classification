@@ -15,7 +15,7 @@
  
   Each data consists of label and content. <br>
 
-  The labels start with a special string __label__ following with the serial number of the label name which are saved in a file called 'label_dict.json'.<br>
+  The labels start with a special prefix string “__label__” following with the serial number of the label name which are saved in a file called 'label_dict.json'.<br>
 
   The contents are splited already by tokenizer.<br>
 
@@ -24,7 +24,7 @@
 ## Model
 
   The model used in this project is fastText , you can run train.py directly to train the model which will be saved as model/fasttext.bin.
-  The training result is as below<br>
+  The training result is as below.<br>
 
  办公;, precison:0.9845, recall:0.9859789684526791, F1:0.9852389291968977<br>
  财经;, precison:0.9005, recall:0.9009504752376188, F1:0.9007251812953239<br>
