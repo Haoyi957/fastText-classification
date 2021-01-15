@@ -15,7 +15,7 @@
  
   Each data consists of label and content. <br>
 
-  The labels start with a special prefix string “__label__” following with the serial number of the label name which are saved in a file called 'label_dict.json'.<br>
+  The labels start with a special prefix string \_label\_ following with the serial number of the label name which are saved in a file called 'label_dict.json'.<br>
 
   The contents are splited already by tokenizer.<br>
 
